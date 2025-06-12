@@ -9,19 +9,34 @@
 ## Project Structure
 
 ```
-.
-├── binary_search_tree.cpp / .h
-├── cache_manager.cpp / .h
+cache-manager/
+├── README.md
+├── generated_output_file.txt
+├── json.hpp
 ├── cache_manager_config.json
 ├── cache_manager_test_cases.json
-├── cache_test_driver.cpp
-├── dll_node.cpp / .h
-├── doubly_linked_list.cpp / .h
-├── generated_output_file.txt
-├── hash_node.cpp / .h
-├── hash_table.cpp / .h
-├── json.hpp
-├── tree_node.cpp / .h
+├── uml-diagrams/                     
+│   ├── BinarySearchTree.png
+│   ├── DoublyLinkedList.png
+│   ├── HashTable.png
+│   └── CacheManager.png
+├── src/                              
+│   ├── binary_search_tree.cpp
+│   ├── binary_search_tree.h
+│   ├── cache_manager.cpp
+│   ├── cache_manager.h
+│   ├── cache_test_driver.cpp
+│   ├── dll_node.cpp
+│   ├── dll_node.h
+│   ├── doubly_linked_list.cpp
+│   ├── doubly_linked_list.h
+│   ├── hash_node.cpp
+│   ├── hash_node.h
+│   ├── hash_table.cpp
+│   ├── hash_table.h
+│   ├── tree_node.cpp
+│   └── tree_node.h
+
 ```
 
 ## Features
