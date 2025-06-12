@@ -1,0 +1,22 @@
+# Eclipse project files
+.project
+.cproject
+.settings/
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional generated output
+generated_output_file.txt
