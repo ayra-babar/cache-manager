@@ -1,0 +1,19 @@
+{
+    "CacheManager": [
+        {
+            "files": [
+                {
+                    "inputFile": "cache_manager_test_cases.json",
+                    "outputFile": "generated_output_file.txt",
+					"errorLogFile":"logFile.txt"
+                }
+            ],
+            "defaultVariables": [
+                {
+                    "FIFOListSize": 10,
+                    "hashTableSize": 11
+                }
+            ]
+        }
+    ]
+}
