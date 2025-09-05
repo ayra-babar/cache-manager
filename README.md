@@ -68,7 +68,7 @@ cd "/c/Users/User/Desktop/cache_manager_project/Cache Manager"
 
 5. Compile the code using:
 ```bash
-g++ -std=c++17 -o cache_test_driver.exe cache_test_driver.cpp cache_manager.cpp hash_table.cpp hash_node.cpp doubly_linked_list.cpp dll_node.cpp binary_search_tree.cpp tree_node.cpp
+g++ -std=c++17 -I. Isrc -o cache_test_driver.exe src/*.cpp
 ```
 May have to press **Enter** twice before proceeding to step 6.
 
